@@ -1,2 +1,51 @@
-# Ber1in317.github.io
-About me
+<!DOCTYPE html>
+<html>
+<head>
+  <title> About Me </title>
+<style> 
+h2 {
+   color: rgb(2, 197, 175)
+}
+
+body {
+     background-color: rgb(208, 98, 82)
+}
+
+#about-me{
+	background-color: rgb(57, 150, 247)	
+}
+
+#h-2{
+    color: rgb(235, 112, 142)
+}
+</style>
+</head>
+<h1>About me </h1>
+<h2 id=h-2> By Lukas Hines </h2>
+
+<body>
+<p id="about-me"> Hello my name is <em>lukas</em><br>
+i am <strong>15</strong> years old<br>
+and some of my hobbies are </p>
+
+<ol> <li> Photography </li>
+     <li> hacking/Cyber security </li>
+     <li> Coding  </li>
+</ol>
+<h2> Stuff i want to do </h2>
+<ul> <li>Sky Diving </li>
+   <img src="https://www.skydivetoronto.com/application/files/1116/1160/1914/solo.jpg" width=300 height=200>
+     <li>Scuba Diving</li>
+     <img src="data:image/jpeg;base64,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">
+     <li>Hunting</li>
+<img src="https://www.acurite.com/media/images/blog/best-weather-for-deer-hunting-hunter.jpg" width=300
+>
+
+</ul>
+
+
+
+
+
+</body>
+</html>
